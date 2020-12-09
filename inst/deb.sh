@@ -7,7 +7,7 @@ apt-get install wget -y
 
 
 cd /usr/bin/
-wget https://github.com/HyperBeats/custom-motd/raw/master/custom_motd
+wget https://raw.githubusercontent.com/HyperBeats/custom-motd/main/custom_motd
 chmod +x custom_motd
 
 echo 'custom_motd' >> /etc/profile
