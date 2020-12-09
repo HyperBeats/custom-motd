@@ -241,13 +241,14 @@ fi
 # 		Echo the message to console. 
 # =========================================
 
-echo -e "\e[95m __    __    ___  _        __   ___   ___ ___    ___  \e[39m"
-echo -e "\e[95m|  |__|  |  /  _]| |      /  ] /   \ |   |   |  /  _] \e[36m   |\_/| \e[39m"
-echo -e "\e[95m|  |  |  | /  [_ | |     /  / |     || _   _ | /  [_  \e[36m   'o.o' \e[39m"
-echo -e "\e[95m|  |  |  ||    _]| |___ /  /  |  O  ||  \_/  ||    _] \e[36m   =(_)= \e[39m"
-echo -e "\e[95m|  '  '  ||   [_ |     /   \_ |     ||   |   ||   [_  \e[36m     U  \e[39m"
-echo -e "\e[95m \      / |     ||     \     ||     ||   |   ||     | \e[39m"
-echo -e "\e[95m  \_/\_/  |_____||_____|\____| \___/ |___|___||_____| \e[39m"
+echo -e "\e[95m  .oooooo.               o8o             .oooooo..o                                                               \e[39m"
+echo -e "\e[95m d8P'  `Y8b              `"'            d8P'    `Y8                                                               \e[39m"
+echo -e "\e[95m888            .oooo.   oooo   .oooo.   Y88bo.       .ooooo.  oooo d8b oooo    ooo  .ooooo.  oooo  oooo  oooo d8b \e[39m"
+echo -e "\e[95m888           `P  )88b  `888  `P  )88b   `"Y8888o.  d88' `88b `888""8P  `88.  .8'  d88' `88b `888  `888  `888""8P \e[39m"
+echo -e "\e[95m888     ooooo  .oP"888   888   .oP"888       `"Y88b 888ooo888  888       `88..8'   888ooo888  888   888   888     \e[39m"
+echo -e "\e[95m`88.    .88'  d8(  888   888  d8(  888  oo     .d8P 888    .o  888        `888'    888    .o  888   888   888     \e[39m"
+echo -e "\e[95m `Y8bood8P'   `Y888""8o o888o `Y888""8o 8""88888P'  `Y8bod8P' d888b        `8'     `Y8bod8P'  `V88V"V8P' d888b    \e[39m"
+                                                                                                                                                                                                                              
 echo -e "\e[92mHostname....:\e[39m \e[96m`hostname`\e[39m"
 echo -e "\e[92mOS..........:\e[39m \e[96m${OSSTR}\e[39m\e[31m ${MOTD_KERNEL}\e[39m"
 echo -e "\e[92mIPv4........:${MOTD_MYIPADDR}"
